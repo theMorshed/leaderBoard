@@ -176,7 +176,7 @@ nav {
 .course {
     width: 224px;
     padding: 15px;
-    border-radius: 15px; 
+    border-radius: 15px;
     box-shadow: 1px 1px 6px lightgray;
 }
 
@@ -249,61 +249,85 @@ nav {
     .container {
         width: 100%;
     }
+
     .logo {
         margin-top: 15px;
     }
+
     header {
         height: auto;
     }
+
     header .container {
         flex-direction: column;
         height: auto;
     }
+
     nav {
         flex-direction: column-reverse;
     }
+
     .menuImage img {
         margin: 10px 0;
     }
+
     .menu ul li {
         margin: 15px;
     }
+
     .players {
         grid-template-columns: repeat(2, 1fr);
     }
-    .blogs, .courses {
+
+    .blogs,
+    .courses {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .courses {
         grid-row-gap: 20px;
     }
 }
+
 @media screen and (min-width: 577px) and (max-width: 900px) {
     .container {
         width: 90%;
     }
+
+    .logo {
+        margin-top: 15px;
+    }
+
     header {
         height: auto;
     }
+
     header .container {
         flex-direction: column;
         height: auto;
     }
+
     nav {
         flex-direction: column-reverse;
     }
+
     .menuImage img {
         margin: 10px 0;
     }
+
     .menu ul li {
         margin: 15px;
     }
+
     .players {
         grid-template-columns: repeat(2, 1fr);
     }
-    .blogs, .courses {
+
+    .blogs,
+    .courses {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .courses {
         grid-row-gap: 20px;
     }
